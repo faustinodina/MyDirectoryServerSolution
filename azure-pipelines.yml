@@ -2,8 +2,8 @@ trigger:
 - master
 
 pool:
-  vmImage: 'windows-latest'
-
+#  vmImage: 'windows-latest'
+  name: 'Default'   # your self-hosted pool
 variables:
   buildConfiguration: 'Release'
 
